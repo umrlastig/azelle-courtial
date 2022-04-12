@@ -76,7 +76,17 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang-en" href="#publications">Publications</a>
           <a class="nav-link js-scroll-trigger lang-fr" href="#publications">Publications</a>
-<!--         </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang-en" href="#ressources">Ressources</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#ressources">Ressources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang-en" href="#ressources">Teaching</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#ressources">Enseignement</a>
+        </li>
+        <!--
+
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang-en" href="#projects">Projects</a>
           <a class="nav-link js-scroll-trigger lang-fr" href="#projects">Projets</a>
@@ -99,7 +109,8 @@
         <div class="subheading mb-5">73 avenue de Paris · 94165 Saint-Mandé CEDEX ·
           <a>aze<!--anti@spam.fr!-->lle.courtial@ign.fr</a>
         </div>
-        <p class="lead mb-5 lang-en">PhD student in map generalization, since October 2019. </p>
+        <p class="lead mb-5 lang-en">PhD student in geographic information sciences, since October 2019.
+        </p>
         <!-- <p class="lead mb-5 lang-en">Member of the <a href="">SCALES</a> research team on multi scale modeling, abstraction and, interaction.</p>-->
         <p class="lead mb-5 lang-fr">Doctorante en généralisation cartographique, depuis octobre 2019.</p>
         <!-- <p class="lead mb-5 lang-fr">Membre de l'équipe <a href="">SCALES</a> sur la modélisation, l'abstraction et les interaction multi échelles.</p>-->
@@ -113,24 +124,7 @@
           <a href="https://github.com/ACourtial">
             <i class="fab fa-github"></i>
           </a>
-          <!-- <a href="#"> -->
-            <!-- <i class="fab fa-twitter"></i> -->
-          <!-- </a> -->
-          <!-- <a href="#"> -->
-            <!-- <i class="fab fa-facebook-f"></i> -->
-          <!-- </a> -->
-          <!-- <a href="https://scholar.google.fr/citations?user=Cbc_R2IAAAAJ"> -->
-            <!-- <i class="ai ai-google-scholar"></i> -->
-          <!-- </a> -->
-          <!-- <a href="#"> -->
-            <!-- <i class="ai ai-publons"></i> -->
-          <!-- </a> -->
-          <!-- <a href="#"> -->
-            <!-- <i class="ai ai-orcid"></i> -->
-          <!-- </a> -->
-          <!-- <a href="#"> -->
-            <!-- <i class="ai"><img src="img/icons/hal-b2.svg" width=45px/></i> -->
-          <!-- </a> -->
+
         </div>
       </div>
     </section>
@@ -141,229 +135,150 @@
       <div class="w-100">
         <h2 class="mb-5 lang-en">Research Interests</h2>
         <h2 class="mb-5 lang-fr">Sujets de recherche</h2>
+
+        <p class="lead mb-5 lang-en">The goal of my thesis is to explore the potential of deep learning for map generalisation. </p>
+        <p class="lead mb-5 lang-fr">L'objectif de ma thèse est d'explorer les possibilités offertes par les techniques d'appprentissage profond pour la généralisation cartographique.</p>
+
         <hr class="star-dark mb-5">
-        <div class="row">
+
+
+			<div>
+					<h5 class= lang-en>Map generalization</h5>
+          <h5 class= lang-fr>Généralisation cartographique</h5>
+          <div class="row">
           <article class="col-md-6 col-lg-4">
 			<div>
-					<h5>Map generalization</h5>
-          <p><img src="./img/gen1.png" onmouseout="this.src='./img/gen1.png'" onmouseover="this.src='./img/gen2.png'"></p>
+          <p><img src="./img/Gen_road1.png" onmouseout="this.src='./img/Gen_road1.png'" onmouseover="this.src='./img/Gen_road12.png'"></p>
 			</div>
           </article>
           <article class="col-md-6 col-lg-4">
 			<div>
-					<h5>Deep learning</h5>
-          <p><img src="./img/dl1.png" onmouseout="this.src='./img/dl1.png'" onmouseover="this.src='./img/dl2.png'"></p>
+
+          <p><img src="./img/Gen_urban1.png" onmouseout="this.src='./img/Gen_urban1.png'" onmouseover="this.src='./img/Gen_urban12.png'" ></p>
+			</div>
+          </article>
+
+          <p class="lang-fr">
+            La généralisation cartographique correspond à l'adaptation d'un jeu de données géographiques détaillées
+			pour réaliser une carte à plus petite échelle.
+            Le changement d'échelle implique le grossissement des éléments sur la carte et donc la diminution
+			de l'espace disponible,il est alors nécessaire de simplifier ou sélectionner l'information géographique représentée.
+            L'automatisation de la généralisation cartographique est un sujet de recherche important, il existe de nombreux operateurs
+			de généralisation et des méthodes d'orchestration de ces algorithmes, l'automatisation complète de ces processus
+			n'est cepandant pas encore possible.
+            Je penses que l'utilisation de techniques d'apprentissage profond pourrait contribuer à la recherche pour cette discipline.
+            Au cours de ma thèse j'ai à la fois traité l'apprentissage d'opérations individuelles (sélection du réseau routier, détection d'alignement, simplification des formes de routes de montagne)
+			et expérimenté une approche globale de génération de cartes généralisée au 1:50 000.
+          </p>
+          <p class="lang-en">
+            Map generalisation is the adaptation of a set of detailed geographical data to produce a map at a smaller scale.
+            The change of scale involve a reduction of the available space, it is then necessary to simplify or select the geographical information presented.
+            The automation of cartographic generalization is an important research subject, and despite many generalization operators and methods of orchestration, complete automation has not yet been achieved.
+            I believe that the use of deep learning could provide be profitable to research on the automation of map generalisation .
+            During my thesis I have both dealt with the learning of individual operations (selection of the road network, detection of alignment, simplification of the shapes of mountain roads) and experimented a global approach to generate a generalized map  at 1 :50,000.
+
+           </p>
+
+			</div>
+    </div>
+			<div>
+					<h5 class="lang-en">Deep learning</h5>
+          <h5 class="lang-fr">Apprentissage profond</h5>
+          <p class="lang-en"><img src="./img/dlexplanation.png" onmouseout="this.src='./img/dlexplanation.png'" onmouseover="this.src='./img/dlexplanation.png'"></p>
+          <p class="lang-fr"><img src="./img/dlexplanationFR.png" onmouseout="this.src='./img/dlexplanationFR.png'" onmouseover="this.src='./img/dlexplanationFR.png'"></p>
+
+          <p class="lang-fr">
+            L'apprentissage profond fait partie des technique dites d'itelligence artificielle, dont le but est de simulé l'intelligence humaine pour résoudre une tâche de gestion de données.
+            Pour cela l'apprentissage profond se base sur un macanisme d'apprentissage c'est à dire que plutot que d'étre programée explicitement pour resoudre la tâche la machine, va plutot aprendre à partir d'exemple.
+            Le principe est le suivant : le model est définie avec un certain architecture et des poids aléatoire. Ce modele est appliqué aux données du jeu d'entrainemnt. On compare la prediction avec le resultat attendu.
+            On optimise les poid pour minimiser la difference entre prediction et cible. Le processus est répété jusqu'à obtenir uns stabilisation et/ou un résultat satisfaisant.
+            Les principaux facteur d'amélioration d'un model de deep learning sont l'amélioration du jeu d'entrainement , de  l'architecute du model d'apprentissage et  de la fonction d'objectif (la comparaison entre la prediction et la cible).
+            Au cours de ma thèse j'ai pu aborder le fonctionnement de ces trois aspects en vu de construire un model capable de généralisation cartographique.
+
+
+           </p>
+          <p class="lang-en">
+            Deep learning techniques belong to artifiacle intelligence techniccs that aims to reproduce humain itelligence to solve data managment task.
+			DL is base on learning mechanisim, indeed instead of programing algorithm explicitly for a task, we rather learn from exemple.
+			The principle is the following : model is define with a certain architecture and with random weigth. this model is apply to input data and the prediction is compared with the exepted results.
+			Then the algorythm optimize the weigth to minimize the difference . this process is repeated until obtaining a steady and correct results.
+			The main improvement isssues for this kind of model are the improvement of example set, of the architecture, and of the comparison (loss function).
+			During my thesis I dealt with these tree issues in order to construct a model adapted to do map generalisation.
+
+
+           </p>
 			</div>
 
 
-        </div>
-        <p class="lang-fr">La généralisation cartographique correspond à l'adaptation d'un jeu de donnée géogrpahique détaillé pour réaliser une carte à plus petite échelle.
-          Elle permet la simplicifcation de l'information afin de garantir la lisibilité de la carte.
-          L'objectif de mon travail de thèse est d'explorer les possibilités offertes par les techniques d'appprentissage profond pour ce problème de recherche.
-        </p>
-        <p class="lang-en">Map generalisation is to adapt a detailled dataset for representation in map at smaller scale.
-          It permit the simplification of information and garantee the legibility of the map.
-          The goal of my thesis will be to explore the potential of deep learning for this research issue.
-         </p>
-      </div>
+
+
     </section>
 
-    <!-- <hr class="m-0"> -->
+
 
  <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="news">
       <div class="w-100">
         <h2 class="mb-5">News</h2>
-        <h5 class="lang-en">How to generate map looking images ?</h5>
-        <h5 class="lang-fr">Apprendre à générer des images qui ressemblent à des cartes ?</h5>
-        <p class="lang-en">Poster for IGN research day, May 2021 : <a href="./img/JR_AC_2021.pdf">here</a></p>
-        <p class="lang-en">Video presentation of the poster (in French) :  </p>
-        <p class="lang-fr">Poster pour les journées de la recherche de l'IGN, Mai 2021: <a href="./img/JR_AC_2021.pdf">içi</a></p>
-        <p class="lang-fr">Vidéo de presentation du poster :  </p>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/NkNNkuBjzvA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              <!-- </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h5 class="mb-0 lang-en">Participation at  <a href="https://www.ensg.eu/31e-journee-de-la-recherche-IGN-2022">IGN research day</a>.</h3>
+            <div class="mb-3 lang-en">I will present my work entitled "Usage of vector spatial data in image-based deep learning models"  Thursday, March 31 at 4:50 p.m., a video recording is planned. </div>
 
-        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/orthez_google.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block"> -->
-                <h5 class="lang-en">Constraint Based Evaluation of Generalized Images Generated by Deep Learning</h5>
-                <h5 class="lang-fr">Evaluation d'images généralisées par apprentissage profond, basée sur des contraintes.</h5>
-                <p class="lang-en">Presentation at ICA Workshop on Map Generalisation and Multiple Representation, Nov 2020.</p>
-                <p class="lang-fr">Présentation au workshop ICA sur la généralisation cartographique et les représentation multiples, Novembre 2020 (en Anglais).</p>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/Y3Pei6rcC0M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                <h5 class="lang-en">Survey on evaluation of mountain road generalisation</h5>
-                <h5 class="lang-fr">Sondage sur l'évaluation de la généralisation des routes de montagne</h5>
-                <p class="lang-en">The survey is now closed, thank you for your participation. The results will be includ in a future publication.</p>
-                <p class="lang-fr">Le'enquete est maintenant terminée, merci de votre participation. Les resultat seront inclus dans une future publication.</p>
-
-
-                <h5 class="lang-en">Montain roads generalisation by deep learning</h5>
-                <h5 class="lang-fr">Généralisation des routes de montagne par apprentissage profond</h5>
-                <p class="lang-en">Poster for IGN research day, Oct 2020 : <a href="./img/JR_AC_20.pdf">here</a></p>
-                <p class="lang-en">Video presentation of the poster (in French) :  </p>
-                <p class="lang-fr">Poster pour les journées de la recherche de l'IGN, Oct 2020: <a href="./img/JR_AC_20.pdf">içi</a></p>
-                <p class="lang-fr">Vidéo de presentation du poster :  </p>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/JC0rLu8IfQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              <!-- </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/orthez_IGN.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block"> -->
-
-              </div>
-            </div>
-<!--
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a> -->
+            <h5 class="mb-0 lang-fr">Participation à la <a href="https://www.ensg.eu/31e-journee-de-la-recherche-IGN-2022">journée de la recherche de l'IGN</a>.</h3>
+            <div class=" mb-3 lang-fr">Je présenterais mon travail "Utilisation de données spatiales vectorielles dans les modèles d'apprentissage profond basés sur des images" le jeudi 31 mars à 16h50, une captation video est prévue. </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary lang-en">March 2022 </span>
+            <span class="text-primary lang-fr">Mars 2022 </span>
+          </div>
         </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h5 class="mb-0 lang-en">Participation at <a href="https://egc2022.univ-tours.fr/">EGC</a> conference.</h3>
+            <div class="mb-3 lang-en">I presented my work about representing and combining spatial data for deep learning at the workshop on spatial and temporal data managment and analysis.</div>
+            <h5 class="mb-0 lang-fr">Participation à la conférence <a href="https://egc2022.univ-tours.fr/">EGC</a>.</h3>
+            <div class=" mb-3 lang-fr">J'ai participé à l'atelier gestion et analyse de données spatio-temporelles de la conférences, j'y présente l'article : "Représentation et combinaison de l'information géographique pour l'apprentissage profond".</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary lang-en">January 2022 </span>
+            <span class="text-primary lang-fr">Janvier 2022 </span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h5 class="mb-0 lang-en">Participation at <a href="https://www.icc2021.net/">ICC 2021</a>.</h3>
+            <div class=" mb-3 lang-en">I presented my work titled "Can Graph Convolutional Network Learn Spatial Relations ?" during the conference. <br>
+              I took part to the Pre-Conference Workshop 24th ICA Workshop on Map Generalisation and Multiple Representation and proposed A Benchmark for Deep Learning-Based Generalisation - AlpineBends.
+            </div>
+            <h5 class="mb-0 lang-fr">Participation à la conférence <a href="https://www.icc2021.net/">ICC 2021</a>.</h3>
+            <div class=" mb-3 lang-fr">J'ai présenté mon travail "Can Graph Convolutional Network Learn Spatial Relations ?". <br>
+              J'ai participé à l'atelier Pre-Conference Workshop 24th ICA Workshop on Map Generalisation and Multiple Representation et j'ai proposé un benchmark pour la généralisation de routes de montagne - AlpineBends. </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary lang-en">December 2021 </span>
+            <span class="text-primary lang-fr">Decembre 2021 </span>
+          </div>
+
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h5 class="mb-0 lang-en">Survey on evaluation of mountain road generalisation.</h3>
+            <div class=" mb-3 lang-en">The survey is now closed, thank you for your participation. The results will be includ in a future publication.</div>
+            <h5 class="mb-0 lang-fr">Sondage sur l'évaluation de la généralisation des routes de montagne.</h3>
+            <div class=" mb-3 lang-fr">L'enquete est maintenant terminée, merci de votre participation. Les resultat seront inclus dans une future publication.</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2020 </span>
+          </div>
+        </div>
+
+
+
+
       </div>
     </section>
 
-    <!-- <hr class="m-0"> -->
 
-<!--     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">PhD student</h3>
-            <div class="subheading mb-3">LASTIG, IGN France</div>
-            <p>Description...</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">October 2019 - Now</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">InternShip</h3>
-            <div class="subheading mb-3">COGIT, IGN France</div>
-              <p>Description...</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2004 - December 2007</span>
-            </div>
-        </div>
-      </div>
-
-    </section> -->
-
-<!--     <section id="timeline" class="section appear clearfix">
-      <div class="container mar-bot50">
-        <div class="row mar-bot40">
-          <div class="col-lg-12 text-center">
-              <h2 class="section-heading">Experience</h2>
-              <h3 class="section-subheading text-muted mb-5">Past jobs and roles in research</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>10-09-2004</h4>
-                    <h4 class="subheading">Research assistant</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">I start working at IGN France as a research assistant in the COGIT research team, assisting Cécile Duchêne and Anne Ruas on map generalisation.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>01-01-2008</h4>
-                    <h4 class="subheading">PhD student</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">My PhD, <a href="http://recherche.ign.fr/labos/cogit/pdf/THESES/TOUYA/theseTouya.pdf">obtained in June 2011</a>, was supervised by Cécile Duchêne and Anne Ruas, and dealt with collaborative map generalisation.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>01-07-2011</h4>
-                    <h4 class="subheading">Senior researcher at COGIT research team, IGN</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">After my PhD, I become a senior researcher, still in COGIT team, at IGN France. I'm part of the group on automated cartography and geovisualization.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>04-05-2017</h4>
-                    <h4 class="subheading">Habilitation defense</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Defense of my <a href="http://recherche.ign.fr/labos/cogit/pdf/HDR/hdr-touya-2017.pdf">habilitation (HDR)</a> in GI science, which allows in France to be the main supervisor of PhD students.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>15-07-2017</h4>
-                    <h4 class="subheading">Head of COGIT research team</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">I take over the leadership if the COGIT research team from Sébastien Mustière.</a></p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>01-09-2018</h4>
-                    <h4 class="subheading">Vice-head of LASTIG lab</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">I become the vice-head of the new <a href="http://umrlastig.github.io/website">LASTIG lab.</a></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <hr class="m-0"> -->
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
@@ -373,7 +288,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">Université Paris-Est</h3>
-            <div class="subheading mb-3">PhD in Geographical Information Science</div>
+            <div class="subheading mb-3">PhD in Geographical Information Sciences</div>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">October 2019 - Now</span>
@@ -383,7 +298,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Université Paris-Est, ENSG</h3>
-            <div class="subheading mb-3">Master in Geographical Information Science, spatial analysis and remote sensing</div>
+            <div class="subheading mb-3">Master in Geographical Information Sciences, spatial analysis and remote sensing</div>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2017 - September 2019</span>
@@ -393,7 +308,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">Université Paris 7-Diderot</h3>
-            <div class="subheading mb-3">Licence in Mathematic and Informatic applied to social science</div>
+            <div class="subheading mb-3">Licence in Mathematic and Informatic applied to social sciences</div>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2014 - September 2017</span>
@@ -429,149 +344,161 @@
         -->
       </div>
     </section>
+	 <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="ressources">
+    <div class="w-100">
+        <h2 class="mb-5" id="ressources">Ressources</h2>
 
-    <!-- <section class="section appear clearfix p-3 p-lg-5">
-      <div class="w-100">
-        <h2 class="mb-5 mt-5">Invited Talks</h2>
-        <ol id="talks" class="sub">
-        </ol>
+		      <h4 class="mb-5">Poster and slides</h4>
+    <div id="carouselExample2Indicators" class="carousel " data-ride="carousel">
+          <ol class="carousel-indicators" id="indicators2">
+            <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
+            <li data-target="#carouselExample2Indicators" data-slide-to="2" ></li>
+            <li data-target="#carouselExample2Indicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner ">
+            <div class="carousel-item col-lg-12 text-center active">
+              <iframe src="https://www.slideshare.net/slideshow/embed_code/key/5ufU0WrNqXvPcv?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+              <div class="carousel-caption ">
+              </div>
+                <p class="lang-fr">
+                  <br>  <a href="https://fr.slideshare.net/azellecourtial/can-graph-convolution-network-learn-spatial-relations" title="Can graph convolution network learn spatial relations ?" target="_blank">Can graph convolution network learn spatial relations ?</a>
+                  <br>Slides à la conférence ICC, Decembre 2021.</p>
+                <p class="lang-en">
+                  <br>  <a href="https://fr.slideshare.net/azellecourtial/can-graph-convolution-network-learn-spatial-relations" title="Can graph convolution network learn spatial relations ?" target="_blank">Can graph convolution network learn spatial relations ?</a>
+                  <br> Slides at ICC conference, December 2021.  </p>
+                <br>
+
+            </div>
+
+          <div class="carousel-item col-lg-12 text-center">
+            <iframe src="https://www.slideshare.net/slideshow/embed_code/key/IDHTZPcDB0d9wH?hostedIn=slideshare&page=upload" width="400" height="225" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+            <div class="carousel-caption ">
+            </div>
+
+              <p class="lang-fr">
+                <br> <a href="https://www.slideshare.net/azellecourtial/gnralisation-des-routes-de-montagne-par-apprentissage-profond" title="Apprendre à combiner l'information géographique pour générer une carte généralisée." target="_blank">Apprendre à combiner l'information géographique pour générer une carte généralisée</a>
+                <br>Poster pour la conférence francophone sur l'extraction et la gestion des connaissances, January 2022. </p>
+              <p class="lang-en">
+                <br> <a href="https://www.slideshare.net/azellecourtial/gnralisation-des-routes-de-montagne-par-apprentissage-profond" title="Learn to combine geographic information to generate a generalized map." target="_blank">Learn to combine geographic information to generate a generalized map</a>
+                <br>Poster for EGC conference (in French), January 2022. </p>
+              <br>
+
+          </div>
+          <div class="carousel-item col-lg-12 text-center ">
+            <iframe src="https://www.slideshare.net/slideshow/embed_code/key/3STQc0oyvKqWwQ?hostedIn=slideshare&page=upload" width="400" height="225" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+            <div class="carousel-caption ">
+            </div>
+            <br>
+
+              <p class="lang-fr">
+                <a href="https://fr.slideshare.net/azellecourtial/apprendre-gnrer-des-extraits-de-carte-gnralise-despaces-urbains" title="Apprendre à générer des extraits de carte généralisée d'espaces urbains." target="_blank">Apprendre à générer des extraits de carte généralisée d'espaces urbains</a>
+                <br>Poster pour les journées de la recherche de l'IGN, Mai 2021.</p>
+              <p class="lang-en">
+                <a href="https://fr.slideshare.net/azellecourtial/apprendre-gnrer-des-extraits-de-carte-gnralise-despaces-urbains" title="Learn to generate extract of generalized map in urban area." target="_blank">Learn to generate extract of generalized map in urban area</a>
+                <br>Poster for IGN research day (in French), May 2021.  </p>
+              <br>
+
+          </div>
+          <div class="carousel-item col-lg-12 text-center ">
+            <iframe src="https://www.slideshare.net/slideshow/embed_code/key/t1cQkMsy4L8jse" width="400" height="225" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+            <div class="carousel-caption ">
+            </div>
+
+              <p class="lang-fr">
+                <br><a href="https://www.slideshare.net/azellecourtial/gnralisation-des-routes-de-montagne-par-apprentissage-profond" title="Généralisation des routes de montagne par apprentissage profond" target="_blank">Généralisation des routes de montagne par apprentissage profond</a>
+                <br> Poster pour les journées de la recherche de l'IGN, Octobre 2020, Généralisation des routes de montagne par apprentissage profond.</p>
+              <p class="lang-en">
+                <br><a href="https://www.slideshare.net/azellecourtial/gnralisation-des-routes-de-montagne-par-apprentissage-profond" title="Generalization of mountain roads using deep learning." target="_blank">Generalization of mountain roads using deep learning</a>
+                <br>Poster for IGN research day (in French), October 2020, Generalization of mountain road using Deep learning ?  </p>
+              <br>
+
+          </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExample2Indicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample2Indicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+
+		<h4 class="mb-5">Videos</h4>
+
+
+
+    <div id="carouselExampleIndicators" class="carousel " data-ride="carousel">
+          <ol class="carousel-indicators" id="indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner " >
+            <div class="carousel-item col-lg-12 text-center active">
+              <iframe width="400" height="225" src="https://www.youtube.com/embed/Y3Pei6rcC0M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="carousel-caption ">
+                </div>
+                <p class="lang-en">Presentation at ICA Workshop on Map Generalisation and Multiple Representation, Nov 2020.                <br>
+                  Constraint Based Evaluation of Generalized Images Generated by Deep Learning.</p>
+                <p class="lang-fr">Présentation au workshop ICA sur la généralisation cartographique et les représentation multiples, Novembre 2020 (en Anglais).                <br>
+                  Evaluation d'images généralisées par apprentissage profond, basée sur des contraintes.</p>
+              <br>
+            </div>
+            <div class="carousel-item col-lg-12 text-center ">
+              <iframe width="400" height="225" src="https://www.youtube.com/embed/NkNNkuBjzvA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="carousel-caption ">
+              </div>
+              <p class="lang-en">How to generate map looking images ?                 <br>
+                Poster video presentation (in French).   </p>
+              <p class="lang-fr">Vidéo de presentation du poster :                <br>
+                Apprendre à générer des images qui ressemblent à des cartes. </p>
+              <br>
+            </div>
+
+            <div class="carousel-item col-lg-12 text-center">
+
+              <iframe width="400" height="225" src="https://www.youtube.com/embed/JC0rLu8IfQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="carousel-caption ">
+                </div>
+                <p class="lang-en">Montain roads generalisation by deep learning.                <br>
+                  Poster video presentation (in French).  </p>
+                <p class="lang-fr">Vidéo de presentation du poster :                <br>
+                  Généralisation des routes de montagne par apprentissage profond. </p>
+                <br>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
       </div>
-    </section>
+</section>
 
-    <hr class="m-0">
+ <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="teaching">
+    <div class="w-100">
+        <h2 class="mb-5 lang-en">Teaching</h2>
+        <h2 class="mb-5 lang-fr">Enseignement</h2>
+        <p> En 2021 et 2022 : Analyse spatiale, Ingénieur année 2, ENSG, 9 heures, TP uniquement.      <br>
+        En 2020 et 2021 : Introduction à la programmation Python, Géomètre, ENSG, 40 heures, cours et TP.      <br>
+        En 2020 et 2021 : Initiation aux SIG, M1 Geom, ENSG, 18 heures, cours et TP.      <br>
+        En 2020 : Tutorat de projet, LPro, ENSG, 18 heures.      <br>
+        En 2019 : ArcGIS training, MS PDM, ENSG, 15 heures, cours et TP.      <br>
+      </p>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
-      <div class="container">
-        <div class="row text-center title">
-          <h2>Projects</h2>
-        </div>
-        <div class="subheading mb-3">On-going and past research projects</div>
-        <div class="row projects">
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/mapmuxing.png" alt="" class="icon">
-              </div>
-              <h4 class="heading">MapMuxing</h4>
-              <p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/activmap.png" alt="" class="icon">
-              </div>
-              <h4 class="heading">ACTIVmap</h4>
-              <p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/timemachine.jpg" alt="" class="icon">
-              </div>
-              <h4 class="heading">TimeMachine</h4>
-              <p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="cut cut-bottom"></div>
-    </section>
+	</div>
+</section>
 
-    <hr class="m-0"> -->
-
-    <!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="other"> -->
-      <!-- <div class="w-100"> -->
-        <!-- <h2 class="mb-5">Other research activities</h2> -->
-
-        <!-- <div class="subheading mb-3">Software development</div>
-
-        <div class="row projects">
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/cartagen_logo.png" alt="" class="icon">
-              </div>
-              <h4 class="heading">CartAGen</h4>
-              <a class="description" href="https://github.com/IGNF/CartAGen">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/Geoxygene-logo.png" alt="" class="icon">
-              </div>
-              <h4 class="heading">GeOxygene</h4>
-              <a class="description" href="https://github.com/IGNF/geoxygene">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="project">
-              <div class="icon-holder">
-                <img src="img/icons/logo_deepmapgen_small.png" alt="" class="icon">
-              </div>
-              <h4 class="heading">DeepMapGen</h4>
-              <p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
-            </div>
-          </div>
-        </div>
- -->
-        <!-- <div class="subheading mb-3 mt-3">Teaching</div> -->
-
-        <!-- <div class="subheading mb-3 mt-3">Other research activities</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-square"></i>
-            <a href="https://generalisation.icaci.org/">Chair of the ICA commission on Map Generalisation and Multiple Representation</a> since Jul. 2017</li>
-          <li>
-            <i class="fa-li fa fa-square"></i>
-            <a href="http://apvgi-magis.ign.fr/">Co-chair of the GDR MAGIS CNRS commission on crowdsourcing and VGI</a> since Jan. 2017</li>
-          <li>
-            <i class="fa-li fa fa-square"></i>
-            Member of the scientific committee of the SAGEO conference series since 2017</li>
-          <li>
-            <i class="fa-li fa fa-square"></i>
-            Regular reviewer of most important journals in GI science (IJGIS, CaGIS, JOSIS, IJC...)</li>
-        </ul>
-
-        <div class="subheading mb-3 mt-3">Supervisions</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check-square"></i>
-            Adrien Maudet (PhD, 2016), co-supervised with Cécile Duchêne (LASTIG) and Sébastien Picault (CRISTAL, Lille)</li>
-          <li>
-            <i class="fa-li fa fa-check-square"></i>
-            Marion Dumont (PhD, 2018), co-supervised with Cécile Duchêne (LASTIG)</li>
-          <li>
-            <i class="fa-li fa fa-square"></i>
-            Quy Thy Truong (PhD), co-supervised with Cyril de Runz (CReSTIC, Reims)</li>
-          <li>
-            <i class="fa-li fa fa-square"></i>
-            Sébastien Biniek (PhD), co-supervised with Gilles Rouffineau (ESAD Valence)</li>
-          <li>
-            <i class="fa-li fa fa-square"></i>
-            Gauthier Filières-Riveau (PhD), co-supervised with Jean-Marie Favreau and Vincent Barra (LIMOS, Clermont-Ferrand)</li>
-        </ul>
-
-        <div class="subheading mb-3 mt-3">Reviewing</div>
-        <div id="reviewings" class="sub">
-            <div id="revj">
-            </div>
-            <div id="revc">
-            </div>
-            <div id="revb">
-            </div>
-        </div>
-
-        <div class="subheading mb-3">Awards</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2018 Henry Johns Award for the most outstanding paper published in 2017 in the Cartographic Journal</li>
-        </ul>
-      </div> -->
-    <!-- </section>  -->
 
   </div>
 
