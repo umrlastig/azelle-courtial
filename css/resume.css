@@ -807,3 +807,32 @@ nav#filter a {
 .flag-icon-us {
   background-image: url('../img/icons/us.svg');
 }
+
+.container{
+height: 700px;
+width: 300px;
+background-color: white;
+}
+.img1{
+height: 298px;
+position: absolute;
+z-index: 10;
+
+}
+.img2{
+height: 300px;
+position:  absolute;
+
+z-index: 10;
+
+}
+
+
+.expl{
+height: 300px;
+position:  relative;
+top: 300px;
+z-index: 10;
+text-align: justify;
+
+}
